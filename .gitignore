@@ -1,0 +1,5 @@
+venv
+.env
+.streamlit
+__init__.py
+__pycache__
