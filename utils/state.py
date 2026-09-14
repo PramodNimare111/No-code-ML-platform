@@ -35,7 +35,6 @@ DEFAULTS = {
     "batch_pred_df": None,        # result of the last batch prediction
 }
 
-
 def init_state():
     """Call once at the top of every page — sets any missing keys to their default."""
     for key, default in DEFAULTS.items():
