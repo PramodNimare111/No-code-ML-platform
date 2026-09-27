@@ -4,7 +4,7 @@ from utils.state import init_state, push_snapshot, undo, reset_to_raw
 from utils.ui import inject_css, sidebar_status, require_dataset
 from utils.cleaning import apply_operation, OPERATION_GROUPS
 
-st.set_page_config(page_title="Clean — ML Platform", page_icon="🧹", layout="wide")
+st.set_page_config(page_title="Clean — ML Platform", page_icon="", layout="wide")
 init_state()
 inject_css()
 sidebar_status()
