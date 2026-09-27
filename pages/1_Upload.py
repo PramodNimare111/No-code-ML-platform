@@ -4,7 +4,7 @@ from utils.ui import inject_css, sidebar_status
 from utils.data_io import load_dataframe
 from utils import eda
 
-st.set_page_config(page_title="Upload — ML Platform", page_icon="📁", layout="wide")
+st.set_page_config(page_title="Upload — ML Platform", page_icon="", layout="wide")
 init_state()
 inject_css()
 sidebar_status()
@@ -32,7 +32,7 @@ if uploaded_file is not None:
                 st.stop()
 
 if st.session_state.df is None:
-    st.info("👆 Upload a file to get started.")
+    st.info("Upload your file")
     st.stop()
 
 # ---------------------------------------------------------------------------
